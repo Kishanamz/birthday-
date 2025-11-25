@@ -4,7 +4,7 @@ body{
     background-color: black;
 }
 h2{
-    margin: 100px 550px;
+    margin: 100px 600px;
     margin-bottom: 20px;
     color: aliceblue;
 }
@@ -38,4 +38,5 @@ h2{
 .image img:hover {
     transform: scale(1.1);
     box-shadow: 0 0 25px rgb(180, 28, 28);
+
 }
