@@ -4,15 +4,17 @@ body{
     background-color: black;
 }
 h2{
-    margin: 100px 600px;
+    margin: 100px 540px;
     margin-bottom: 20px;
     color: aliceblue;
+    font-size: 30px;
+    margin-right: 0px;
 }
 .image{
     display: flex;
-    gap: 10px;
-    margin: 0px 100px;
-    margin-right: 50px;
+    gap: 0px;
+    margin: 0px 130px;
+    margin-right: 0px;
 }
 .image img {
     width: 400px;        
@@ -20,11 +22,11 @@ h2{
     object-fit: cover;   
     border-radius: 30px;
     margin-left: 100px;
+    margin-right: 100px;
     transition: 0.3s ease;
 }
 
 .image p{
-    padding: 20px 300px;
     color: aliceblue;
 }
 .nana p{
@@ -38,5 +40,4 @@ h2{
 .image img:hover {
     transform: scale(1.1);
     box-shadow: 0 0 25px rgb(180, 28, 28);
-
 }
